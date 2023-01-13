@@ -23,7 +23,7 @@ async function  compute(props){
         body: JSON.stringify(jsonData)
       } 
 
-    const response = await fetch('http://127.0.0.1:5001/',options).then(response => {
+    const response = await fetch('https://pisciottablog-tools.uc.r.appspot.com:8080',options).then(response => {
             if (!response.ok) {
                 throw new Error('Data coud not be fetched!')
             } else {

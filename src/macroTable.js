@@ -1,5 +1,4 @@
 import Table from 'react-bootstrap/Table';
-import Button from 'react-bootstrap/Button';
 import Badge from 'react-bootstrap/Badge';
 
 function printRow(rows,item,setFnc){

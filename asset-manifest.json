@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/diet-app/static/css/main.756af292.css",
+    "main.js": "/diet-app/static/js/main.9d9a8979.js",
+    "static/js/787.c1112931.chunk.js": "/diet-app/static/js/787.c1112931.chunk.js",
+    "index.html": "/diet-app/index.html",
+    "main.756af292.css.map": "/diet-app/static/css/main.756af292.css.map",
+    "main.9d9a8979.js.map": "/diet-app/static/js/main.9d9a8979.js.map",
+    "787.c1112931.chunk.js.map": "/diet-app/static/js/787.c1112931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.756af292.css",
+    "static/js/main.9d9a8979.js"
+  ]
+}

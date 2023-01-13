@@ -33,6 +33,14 @@ async function  compute(props){
             props.setQuantities(parsedData);
         });
 
+        const test = await fetch('https://pisciottablog-tools.uc.r.appspot.com/ip').then(response => {
+            if (!response.ok) {
+                throw new Error('Data coud not be fetched!')
+            } else {
+                return console.log(response.json());
+            }
+        });
+
 }
 
 function CalcButton(props){

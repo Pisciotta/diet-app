@@ -33,7 +33,10 @@ function App() {
 
 
   return (
+
     <div className="App">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7205360955855159"
+     crossorigin="anonymous"></script>
       <Container>
         <Row><h2>-Food's table-</h2></Row>
         <Row><MacroTable header={header} rows={rows} setRows={setRows}/></Row>

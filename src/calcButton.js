@@ -32,7 +32,7 @@ async function  compute(props){
         }).then(function(parsedData) {
             props.setQuantities(parsedData);
         });
-
+/*
         const test = await fetch('https://pisciottablog-tools.uc.r.appspot.com/ip').then(response => {
             if (!response.ok) {
                 throw new Error('Data coud not be fetched!')
@@ -40,7 +40,7 @@ async function  compute(props){
                 return console.log(response.json());
             }
         });
-
+*/
 }
 
 function CalcButton(props){

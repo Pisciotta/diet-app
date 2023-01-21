@@ -11,11 +11,11 @@ function ResultTable(props){
                 <thead>
                     <tr>
                         <th>Food Label</th>
-                        <th>Quantity</th>
+                        <th>Quantity (g)</th>
                     </tr>
                 </thead>
                 <tbody>
-                        {Object.entries(props.quantities).map(([key, value]) => <tr key={key}><td>{key}</td><td>{value}</td></tr>)}
+                        {Object.entries(props.quantities).map(([key, value]) => <tr key={key}><td>{key}</td><td>{value*100}</td></tr>)}
                 </tbody>
                 </Table>
                 </>

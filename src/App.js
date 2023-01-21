@@ -28,7 +28,7 @@ function App() {
   const [condRProteins, setCondRProteins] = useState(40);
   const [condCalories, setCondCalories] = useState(2300);
   const [quantities, setQuantities] = useState([]);
-  
+  console.log(quantities);
 
 
 
@@ -105,7 +105,8 @@ function App() {
       
       
       {
-      Object.keys(quantities).length == 1 && quantities[0] == null ?
+      
+      Object.keys(quantities).length == 1 && quantities[0] == null ||  Object.keys(quantities).length == 0?
         <Alert variant='danger'><b>You got an error!</b> Please check your inputs are correct and click on "Calculate" again.</Alert>: 
           Object.keys(quantities).length > 0 ?
             <><Row><h2>-Results-</h2></Row><Row><ResultTable quantities={quantities} /></Row></>:
